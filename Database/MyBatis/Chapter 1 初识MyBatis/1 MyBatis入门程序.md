@@ -1,6 +1,6 @@
 # MyBatis入门程序
 
-新建一个Maven项目
+新建Maven项目
 
 导入maven依赖
 
@@ -30,7 +30,7 @@
 </dependencies>
 ```
 
-创建数据库连接信息配置文件`mybatis.properties`：
+创建数据库配置文件`mybatis.properties`：
 
 ```
 mysql.driver=com.mysql.cj.jdbc.Driver

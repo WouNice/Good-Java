@@ -47,17 +47,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Student {
-
     private Integer stuId;
-
     private String stuName;
-
 }
 ```
 
 ## 编写XML配置文件
 
-在 resources 包下点击鼠标右键，选择【New】–>【XML Configuration File】–>【Spring Config】，创建`getting-start.xml`
+在 resources 包下创建`getting-start.xml`
 
 添加如下配置：创建 Student 对象的实例，并注入属性的值
 
@@ -115,7 +112,7 @@ Student(stuId=1, stuName=Tom)
 
 > 对象的属性是由setter/getter方法决定的，而不是定义的成员属性
 
-## 使用注解
+## 使用注解测试用例
 
 在模块中引入`spring-test`模块：
 

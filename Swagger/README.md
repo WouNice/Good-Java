@@ -7,3 +7,21 @@ Swagger 是一个用于生成、描述和调用 RESTful 接口的 Web 服务。�
 Swagger 官网：https://swagger.io/
 
 参考：https://www.zhihu.com/question/63803795/answer/1780508067
+
+## swagger-codegen
+
+添加swagger依赖：
+
+```
+<dependency>
+  <groupId>io.swagger.parser.v3</groupId>
+  <artifactId>swagger-parser</artifactId>
+  <version>2.1.1</version>
+</dependency>
+<dependency>
+  <groupId>io.swagger.codegen.v3</groupId>
+  <artifactId>swagger-codegen</artifactId>
+  <version>3.0.34</version>
+</dependency>
+```
+

@@ -1,6 +1,6 @@
 # Spring MVC重定向和转发
 
-参考：https://blog.csdn.net/lj15559275886/article/details/122050361
+参考：[SpringMVC（七）重定向和转发](https://blog.csdn.net/lj15559275886/article/details/122050361)
 
 Spring MVC 请求方式分为转发、重定向 2 种，分别使用 forward 和 redirect 关键字在 controller 层进行处理。
 

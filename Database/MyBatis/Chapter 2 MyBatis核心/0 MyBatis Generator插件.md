@@ -102,7 +102,7 @@
 </generatorConfiguration>
 ```
 
-在generatorConfig.xml中，主要配置了数据库连接、POJO实体类、Mapper接口和Mapper映射文件的保存路径等，主要具有如下内容：
+在generatorConfig.xml中，主要的配置如下：
 
 - classPathEntry：数据库驱动的绝对地址
 - jdbcConnection：配置数据库连接地址。

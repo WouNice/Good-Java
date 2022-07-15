@@ -1,6 +1,6 @@
 # Spring MVC传递参数
 
-Controller 接收请求参数的方式主要有以下几种方式：
+Controller 接收请求参数的方式主要有以下几种：
 
 ## 通过实体Bean接收请求参数
 

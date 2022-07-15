@@ -15,7 +15,7 @@ SpringMVC的开发步骤：
 
 目录结构：
 
-![](assets/image-20220502212055361.png)
+![](assets/s.png)
 
 ## 配置 pom.xml
 
@@ -29,31 +29,6 @@ SpringMVC的开发步骤：
         <version>5.3.20</version>
     </dependency>
 </dependencies>
-```
-
-由于Maven可能存在资源过滤的问题，我们将配置完善
-
-```
-<build>
-    <resources>
-        <resource>
-            <directory>src/main/java</directory>
-            <includes>
-                <include>**/*.properties</include>
-                <include>**/*.xml</include>
-            </includes>
-            <filtering>false</filtering>
-        </resource>
-        <resource>
-            <directory>src/main/resources</directory>
-            <includes>
-                <include>**/*.properties</include>
-                <include>**/*.xml</include>
-            </includes>
-            <filtering>false</filtering>
-        </resource>
-    </resources>
-</build>
 ```
 
 ## 配置spring
@@ -214,12 +189,12 @@ public class IndexController implements Controller {
 
 如果IDEA报`mav.setViewName("/index");`找不到`/index`的错误，需要重新设置web目录：
 
-![](assets/image-20220503082533469.png)
+![](assets/d.png)
 
 ## 配置Tomcat
 
 Tomcat10下载地址：https://tomcat.apache.org/download-10.cgi
 
-![](assets/image-20220502211914898.png)
+![](assets/a.png)
 
 运行Tomcat即可访问/index

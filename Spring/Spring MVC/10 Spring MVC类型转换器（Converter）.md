@@ -4,13 +4,9 @@ Spring MVC 框架的 Converter<S，T> 是一个可以将一种数据类型转换
 
 类型转换是在视图与控制器相互传递数据时发生的。
 
-参考：
-
-- https://www.cnblogs.com/YIueil/p/15780708.html
-
 ## 内置的类型转换器
 
-在 Spring MVC 框架中，对于常用的数据类型，开发者无须创建自己的类型转换器，因为 Spring MVC 框架有许多内置的类型转换器用于完成常用的类型转换。Spring MVC 框架提供的内置类型转换包括以下几种类型。
+Spring MVC 框架提供的内置类型转换包括以下几种类型。
 
 ### 标量转换器
 
@@ -46,3 +42,9 @@ Spring MVC 框架的 Converter<S，T> 是一个可以将一种数据类型转换
 | StringToCollectionConverter     | String 到集合（List、Set）转换，默认通过“，”分割，且去除字符串两边的空格（trim） |
 | CollectionToObjectConverter     | 任意集合到任意 Object 的转换，如果目标类型和源类型兼容，直接返回源对象；否则返回集合的第一个元素并进行类型转换 |
 | ObjectToCollectionConverter     | Object 到单元素集合的类型转换                                |
+
+## 自定义类型转换器
+
+参考：
+
+- https://www.cnblogs.com/YIueil/p/15780708.html
