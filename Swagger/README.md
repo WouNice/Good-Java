@@ -29,7 +29,7 @@ Swagger Editor：https://editor.swagger.io/
 
 ## yaml
 
-Yaml定义中可参考对应的OpenAPI 规范 
+Yaml定义中可参考对应的OpenAPI 规范
 
 -   2.0规范文档见 https://swagger.io/specification/v2/ 或者 https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md 
--   3.0规范文档见https://swagger.io/specification/ 或者 https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md
+-   3.0规范文档见 https://swagger.io/specification/ 或者 https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md
