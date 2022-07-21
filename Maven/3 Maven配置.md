@@ -2,14 +2,14 @@
 
 在maven安装目录的conf里面有一个settings.xml文件，这个文件就是maven的全局配置文件。
 
-settings.xml可以在Idea工具中的file->setting->Build,Execution,Deployment->Maven 来定位。
+settings.xml可以在Idea工具中的file->setting->Build,Execution,Deployment->Maven来定位。
 
 ## 配置本地仓库
 
 修改settings.xml文件。将value的值换成你希望将jar存储的本机位置。内容如下：
 
 ```
- <localRepository>D:\maven</localRepository> 
+<localRepository>D:\maven</localRepository> 
 ```
 
 ## 配置镜像仓库
@@ -17,16 +17,16 @@ settings.xml可以在Idea工具中的file->setting->Build,Execution,Deployment->
 默认国外maven官网的仓库镜像，下载较慢，需要配置中央仓库/镜像，将镜像仓库配置成阿里云的仓库：
 
 ```
- <mirrors>    
-     <!--阿里云仓库镜像，下载速度快-->
-     <mirror>
-       <id>alimaven</id>
-       <name>aliyun maven</name>
-       <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+<mirrors>    
+    <!--阿里云仓库镜像，下载速度快-->
+    <mirror>
+        <id>alimaven</id>
+        <name>aliyun maven</name>
+        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         <!-- 指定此镜像为Maven中央仓库的镜像 -->
-       <mirrorOf>central</mirrorOf>        
-     </mirror>
- </mirrors>
+        <mirrorOf>central</mirrorOf>        
+    </mirror>
+</mirrors>
 ```
 
 ## 完整配置
