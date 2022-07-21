@@ -1,0 +1,1 @@
+# 字符串匹配算法（Knuth-Morris-Pratt）
