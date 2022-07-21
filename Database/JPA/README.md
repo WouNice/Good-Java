@@ -1,6 +1,6 @@
 # README
 
-## 什么是JPA？
+## 什么是JPA
 
 JPA（Java Persistence API)，中文名Java持久层API，是Java持久化规范，它为Java开发人员提供了一种对象/关联映射工具来管理Java应用中的关系数据。
 
